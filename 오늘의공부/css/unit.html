@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit</title>
+    <style>
+        html {
+          font-size: 14px;
+          /* font-size 미지정 시에는 16px */
+        }
+        div {
+          font-size: 1.2rem; /* html font-size: 14px * 1.2 = 16.8px */
+          font-weight: bold;
+          padding: 2em;
+          text-align: center;
+        }
+        .box1 { background-color: rgba(255, 0, 0, 0.2); }
+        .box2 { background-color: rgba(255, 0, 0, 0.6); }
+        .box3 { background-color: rgba(255, 0, 0, 0.8); }
+      </style>
+    </head>
+    <body>
+      <div class='box1'>
+        Font size: 1.2rem ⇒ 14px * 1.2 = 16.8px
+        <div class='box2'>
+          Font size: 1.2rem ⇒ 14px * 1.2 = 16.8px
+          <div class='box3'>
+            Font size: 1.2rem ⇒ 14px * 1.2 = 16.8px
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
